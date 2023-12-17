@@ -1,0 +1,4 @@
+code.ipynb
+memory/timestamp/*
+memory/data/*
+**/__pycache__/*
