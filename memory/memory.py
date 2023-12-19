@@ -4,6 +4,8 @@ import os
 class Memory:
     def __init__(self):
         self.timestamp_format = '%Y-%m-%d %H:%M:%S'
+        if os.path.exists('memory/data')==False:
+            os.mkdir('memory/data')
     
     def save_timestamp(self, time:datetime, path:str):
         with open(path,'w') as fp:

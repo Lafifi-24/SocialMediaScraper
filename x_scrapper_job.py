@@ -14,7 +14,8 @@ def run(start:datetime= None, end:datetime=None):
     if start is None and end is None:
         sleep(1000)
         run()
-start = datetime(2023, 12, 5)
-end = datetime(2023, 12, 6)
-run(start, end)
+start = datetime(2023, 12, 7)
+end = datetime(2023, 12, 8)
+# run(start, end)
+run()
     
