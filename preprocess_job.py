@@ -1,6 +1,6 @@
-from processing import PreProcess
+from processing import ProcessData
 
-process = PreProcess()
+process = ProcessData()
 
 files = {
     'x':'./memory/data/tweets_by_scraping.csv',
@@ -8,4 +8,4 @@ files = {
     'output':'./memory/data/resultat.xlsx'
 }
 
-process.preprocess(files)
+process.process(files)
